@@ -2,7 +2,6 @@ import pandas as pd
 import dash
 import plotly.express as px
 from dash import Dash, html, Input, Output, State, dcc, ctx
-pip install dash-bootstrap-components
 import dash_bootstrap_components as dbc
 
 file= 'C:/Users/switz/OneDrive/Desktop/Python Code/USA_cars_datasets.csv'
