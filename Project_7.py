@@ -54,7 +54,7 @@ layout_2 = html.Div([
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.VAPOR],use_pages=True,pages_folder='')
 app.title='Multi-Page'
-
+server = app.server
 
 
 dash.register_page("First-page",path='/',layout=layout_1),
