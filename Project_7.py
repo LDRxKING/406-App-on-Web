@@ -7,12 +7,8 @@ import csv
 from pathlib import Path
 
 
-dir_main=pathlib.Path(__file__).parent
-file=dir_main/'USA_cars_dataset'
-
-
 file_path = Path('C:/Users/switz/OneDrive/Desktop/Python Code/USA_cars_datasets.csv')
-
+file_path = Path('USA_cars_datasets.csv')
 usa_cars_data= pd.read_csv(file_path)
 
 
