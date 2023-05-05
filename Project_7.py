@@ -6,7 +6,7 @@ import dash_bootstrap_components as dbc
 import csv
 from pathlib import Path
 
-directory_path = Path('C:\Users\switz\OneDrive\Desktop\Python Code')
+file_path = Path('C:/Users/switz/OneDrive/Desktop/Python Code/USA_cars_datasets.csv')
 file_path = directory_path / 'USA_cars_datasets.csv'
 
 usa_cars_data= pd.read_csv(file_path)
